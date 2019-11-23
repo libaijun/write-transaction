@@ -28,7 +28,7 @@ public class UserService {
 
         String sql2 = "update t_user set age = 25 where id = 4)";   // 这里sql2多了个）
         myJdbcTemplate.execute(sql2);
-        System.out.println("==========Add user completed============");
+        // System.out.println("==========Add user completed============");
     }
 
 }
